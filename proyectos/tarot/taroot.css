@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+
+
+body{
+font-family: 'Merriweather', serif;
+}
+
+#tabla{
+  position: absolute;
+  width: 300px;
+  height: 330px;
+   top:  130px;
+  left: 930px;
+}
+
+.texto_oculto{
+  visibility: hidden;
+}
+
+
+#tabla_titulo{
+  font-family: 'MedievalSharp', cursive;
+    font-size: 43px; 
+  position: absolute;
+  width: 300px;
+  height: 33px;
+   top:  70px;
+  left: 930px;
+}
+
+#tabla_titulo::first-letter{
+
+  font-size: 53px; 
+  
+}
+
+#iniciaB{
+  position: absolute;
+  top:  430px;
+  left: 70px;
+  
+}
+
+#tapete{
+  width: 900px;
+  height: 400px;
+  background-image:  url("tapete.jpg");
+  background-color: green;
+  border-radius: 15px;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  margin-bottom: 80px;
+  margin-top: 
+}
+
+body { font-family: Helvetica Neue, Helvetica, Arial, sans-serif; 
+  font-size: 20px; 
+  background-color: lightgoldenrodyellow;
+   
+}
+
+.cartaI:hover {
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+
+}
+
+.carta:hover {
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+}
+
+.carta{
+  width: 100px;
+  border-radius: 9px;
+}
+
+.cartaI{
+  width: 100px;
+  border-radius: 5px;
+  transform: rotate(0.5turn);
+}
+
+
+#leyenda::first-letter{
+  font-size: 32px;
+}
+
+
+#leyenda{
+ 
+    margin-bottom: 110px;
+
+
+}
+
+#carta1{
+
+  position: absolute;
+  top:  90px;
+  left: 50px;
+  
+}
+
+
+
+#carta2{
+
+  position: absolute;
+  top:  180px;
+  left: 170px;
+  
+}
+
+#carta3{
+
+  position: absolute;
+  top:  270px;
+  left: 290px;
+  
+}
+
+#carta4{
+
+  position: absolute;
+  top:  300px;
+  left: 410px;
+  
+}
+
+#carta5{
+
+  position: absolute;
+  top:  270px;
+  left: 530px;
+  
+}
+
+#carta6{
+
+  position: absolute;
+  top:  180px;
+  left: 650px;
+  
+}
+
+#carta7{
+
+  position: absolute;
+  top:  90px;
+  left: 770px;
+  
+}
+
+.titulo{
+  
+  visibility: hidden;
+  font-weight: bold;
+    margin-top: 12px;
+  margin-bottom: 12px;
+  font-size: 23px; 
+}
+
+#pasado{
+ top:  280px;
+  left: 65px;
+}
+
+#resultado{
+ top:  280px;
+  left: 770px;
+}
+
+
+
+#presente{
+ top:  360px;
+  left: 180px;
+}
+
+#futuro{
+ top:  230px;
+  left: 310px;
+}
+
+
+#entorno{
+ top:  230px;
+  left: 550px;
+}
+
+#consejo{
+ top:  260px;
+  left: 420px;
+}
+
+
+#obstaculos{
+ top:  360px;
+  left: 650px;
+}
+
+
+.titu_carta{
+    position: absolute;
+    visibility: hidden;
+    font-family: 'MedievalSharp', cursive;
+    color: rgba(0,0,0,0.75);
+}
+
+.titu_carta:first-letter{
+    position: absolute;
+    font-size: 27px; 
+}
+
+#frame_pie{
+ position: absolute;
+  top : 950px;
+  width: 101.5%;
+    margin-left: -0.9%;
+    margin-top: -370px;
+}
+
+#frame_cabecera{
+  width: 101.5%;
+  margin-top: -20px;
+  margin-bottom: 1px;
+    margin-left: -1%;
+}
+
+#conten{
+  margin-bottom: -200px;
+}
+

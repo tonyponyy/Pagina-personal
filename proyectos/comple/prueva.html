@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<title>div html</title>
+<!--  
+/* lo ideal sería tener la hoja de estilos en otro fichero
+ * pero para el ejemplo lo metemos dentro del documento html
+ */ 
+<link rel = "stylesheet" type = "text/css" media="screen" href="media/css/all/estilos.css"/>
+-->
+<style type="text/css" media="all">
+ body {
+  /* para centrar el contenido */
+  background-color:#ffffff;
+  text-align:center;
+  margin:0 auto;
+ }
+ #container {
+  /* # la almoadilla aplica el estilo a los tag html con ese id */
+  margin: 0 auto;
+  text-align:left;
+  /*width:780px; /* para 800 x 600 */
+  width: 100%;
+ }
+ #cabecera {
+  background-color: blue; /* mejor definir color notación #333ccc */
+  color: white;
+ }
+ #menu {
+  background-color: orange;
+  float: right;
+  width: 20%;
+ }
+ #contenido {
+  background-color: #eadcdc;
+  float: left;
+  width: 75%;
+ }
+ #pie {
+  clear: both;
+  background-color: #333ccc;
+  color: #ffffff;
+ }
+</style>
+</head>
+<body>
+<div id="container">
+ <div id="cabecera">
+  cabecera
+ </div>
+ <div id="menu">
+  menu
+  <ul>
+   <li>item menu</li>
+   <li>item menu</li>
+   <li>item menu</li>
+   <li>item menu</li>
+   <li>item menu</li>
+   <li>item menu</li>
+   <li>item menu</li>
+   <li>item menu</li>
+  </ul>
+ </div>
+ <div id="contenido">
+  contenido
+  <h2>La Ñ con utf-8</h2>
+  <p>
+  Podemos usar cualquier caracter de nuestro queridisimo lenguaje
+  con la codificación UTF-8
+  Ñ ñ á é í ó ú Á É Í Ó Ú ç Ç
+  </p>
+  <h2>Titulo dentro del contenido</h2>
+  <p>
+  Texto dentro del contenido, texto dentro del contenido
+  Ah los diseñadores gráficos usan el siguiente texto como borrador 
+  </p>
+  <h2>Lorem ipsum dolor sit amet</h2>
+  <p>
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  </p>
+  
+ </div>
+ <div id="pie">
+  pie
+ </div>
+</div>
+</body>
+</html>

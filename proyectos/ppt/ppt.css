@@ -1,0 +1,132 @@
+body{
+   font-family: Vegur, 'PT Sans', Verdana, sans-serif;
+}
+
+.historico_impar{
+  background-color: var(--colorfondo);
+}
+
+
+:root {
+    --colorfondo: #afcfb9;
+    --colorpantalla: #d2e4d8;
+    --colorhistorial: #ecf4ee;
+    --colorbotonesencima :#c3e5cd;
+}
+
+
+
+#numpartida{
+   margin-left: 1%;
+  font-size: xx-large;
+}
+
+#titulo_marcador{
+  background-color: white;
+  width: 53.2%;
+  font-size: xxx-large; 
+  position: absolute;
+  animation-duration: 3s;
+   opacity:1;
+}
+
+
+
+
+
+
+#human_hand,#brain_hand{
+  width: 50%;
+  margin-top: 100px;
+  
+}
+
+#brain_hand{
+  filter: drop-shadow(0 2px 10px rgba(236, 131, 182, 1));
+}
+
+
+#human_hand{
+  filter: drop-shadow(0 2px 10px rgba(131, 182, 236, 1));
+}
+
+
+
+
+#cabecera{
+    display: flex;
+   margin-left: 5%;
+  
+}
+
+#m_brain{
+  margin-left: 20%;
+ 
+}
+
+#m_humano{
+  margin-left: 10%;
+ 
+}
+
+
+
+#m_brain,#m_humano{
+ font-size:x-large
+ 
+}
+
+
+
+#cuerpo{
+  background-color: var(--colorfondo);
+  width: 90%;
+  height: 550px;
+  border-radius: 6px;
+  
+
+}
+#contenido{
+  text-align: center;
+  width: 90%;
+  height: 440px;
+ margin-left: 5%;
+  display:flex
+}
+
+#pie{
+  margin-left: 5%;
+}
+
+#pantalla{
+
+  background-color: var(--colorpantalla);
+    width: 70%;
+  height: 440px;
+    display: flex;
+
+  border-color: black;
+  border-width: 1px;
+  border-style:double
+
+}
+
+
+#historico{
+  background-color: var(--colorhistorial);
+  width: 33%;
+  height: 440px;
+  margin-left: 2%;
+  text-align: left;
+  overflow-y: scroll;
+}
+
+#b1,#b2,#b3{
+ margin-left: 40px;
+ width: 63px;
+}
+
+#b1:hover,#b2:hover,#b3:hover{
+  background-color: var(--colorbotonesencima);
+  border-radius: 34px;
+}

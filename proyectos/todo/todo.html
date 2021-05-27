@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="todo.js"></script>
+    <link rel="stylesheet" href="estyle.css">
+</head>
+<body>
+<div id="cabecera"><img class ="add" src="add.svg" onclick="nuevo()"> </div>
+<div id="corcho">
+
+
+
+</div>
+
+<div id="menu">
+
+    <div id="marco">
+        <img class ="cerrar" src="close.svg"  onclick="cerrar_menu()">
+        <div id="marco_titulo">
+            Titulo :<br>
+            <input type="text" id="m_titulo" name="fname">
+            <br><br>
+
+        </div>
+        <div id="marco_texto">
+            Texto :<br>
+            <textarea id="m_texto" rows="10" cols="40"></textarea>
+            <br><br>
+        </div>
+        <div id="marco_colores">
+            Color <br>
+            <button class ="boton_c" id="c_amarillo" onclick="cambiar_color('yellow')">Amarillo</button>
+            <button class ="boton_c" id="c_azul" onclick="cambiar_color('lightblue')">Azul</button>
+            <button class ="boton_c" id="c_rosa" onclick="cambiar_color('pink')">Rosa</button>
+            <button class ="boton_c"  id="c_naranja" onclick="cambiar_color('orange')">Naranja</button>
+            <button class ="boton_c" id="c_verde" onclick="cambiar_color('lightgreen')">Verde</button>
+            <button class ="boton_c" id="c_morado" onclick="cambiar_color('#e1aaf8')">Morado</button>
+            <button class ="boton_c" id="c_blanco" onclick="cambiar_color('white')">Blanco</button>
+            <br><br>
+        </div>
+        <div id="angulos">
+            Angulo :<br>
+            <input type="text" id="angulo" name="fname">
+            <button  id="recto" onclick="recto()">Recto</button>
+            <button  id="ok" onclick="okmenu()">OK</button>
+        </div>
+
+    </div>
+
+</div>
+
+
+</body>
+</html>

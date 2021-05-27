@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+
+textarea {
+   resize: none;
+}
+
+#cabecera img{
+  width: 40px;
+}
+#cabecera{
+  background-color: rgba(255,255,255,0.6);
+   position: absolute;
+  width: 100%;  
+  top:0;
+  left:0;
+}
+
+
+input,textarea{
+  background-color: #e3e3e3;
+  border: 0px;
+  border-radius:3px;
+  border: none;
+  border: solid 2px transparent;
+	outline: 0;
+}
+
+input:focus,textarea:focus{
+  border-color:#2b2b2b;
+  
+}
+
+
+#ok, #recto{
+  background-color:#1c1c1c;
+  color: white;
+  width: 10%;
+  height: 40%;
+}
+
+#ok{
+  margin-left: 39%;
+  width: 20% 
+}
+
+button{
+  border: none;
+  padding:6px;
+   border-radius: 6px;
+}
+
+#c_amarillo{
+  background-color: yellow;
+}
+
+#c_azul{
+  background-color: lightblue;
+}
+
+#c_rosa{
+  background-color: pink;
+}
+
+#c_naranja{
+  background-color: orange;
+}
+#c_verde{
+  background-color: lightgreen;
+ 
+}
+#c_azul{
+  background-color: lightblue;
+}
+
+#c_morado{
+  background-color: #e1aaf8;
+}
+
+#c_blanco{
+  background-color: white;
+}
+
+
+body{
+ 
+  font-family: 'Marck Script', cursive;
+  background-color: brown;
+  background-image: url("corcho.jpeg");
+}
+
+#menu{
+        visibility: hidden;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.6);
+    top:0;
+   left:0;
+  right: 0;
+  
+}
+
+#m_texto{
+  width: 90%;
+  height: 200px;
+     
+}
+
+#marco{
+  
+    font-family: 'Verdana';
+  position: absolute;
+  background-color: white;
+  width: 60%;
+  height: 80%;
+  top :10%;
+  left: 20%;
+  border-radius: 12px;
+  padding: 12px;
+}
+#marco img{
+  padding-top: -12px;
+  position: absolute;
+  left: 68px;
+  width: 30px;
+  
+  
+}
+
+.nota img{
+ 
+  position: absolute;
+  width: 25px;
+  opacity: 0.1;
+}
+
+.nota img:hover{
+  opacity: 1;
+}
+
+.configurar{
+  margin-left: 78%
+}
+.cerrar{
+   margin-left: 87%
+}
+
+
+.nota{
+  background-color: yellow;
+    width: 25%;
+  padding: 12px;
+  margin: 10px;
+  margin-left:4%;
+  height: 80%;
+
+}
+
+.timer{
+  color: red;
+  text-align:center;
+  font-size: xx-large;
+}
+
+
+#corcho{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top:70px
+    ;}
+  
+  

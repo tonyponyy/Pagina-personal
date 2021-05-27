@@ -1,0 +1,225 @@
+body{
+
+   background: #231f21;
+}
+
+.entrada{
+   width: 15%;
+}
+
+#btn {
+   vertical-align: top;
+   position: absolute;
+    opacity: 1;
+    margin-left: 12px;
+}
+
+#btn2{
+   vertical-align: top;
+   position: absolute;
+    opacity: 1;
+    margin-left: 30px;
+}
+
+
+#cpik{
+   position: relative;
+    left: 1px;
+    opacity: 0;
+     vertical-align: top;
+
+}
+
+
+#sandwich, .Cuadrado {
+      
+     border-radius: 5px;
+}
+
+.Cuadrado{
+  height: 200px;
+  margin: 0.3rem;
+  font-size: 31px;
+  line-height: 470px;
+   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  border-bottom: 60px solid #ffffff;
+
+}
+
+.corazoncuadrado{
+
+   position: relative;
+   bottom: 20px;
+
+}
+
+.favs {
+   height: 140px;
+    width: 200px;
+    border-bottom: 60px solid #ffffff;
+    margin: 7px;
+    display: flex;
+     display: inline-block;
+      	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      	   line-height: 380px;
+     font-weight: bold;
+         font-size: 24px;
+
+}
+
+
+#contador{
+   text-align: center;
+   font-size: 12px
+}
+
+
+#paleta {
+         	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+            background-color: #ffffff;
+            position: absolute;
+            border-radius: 3px;
+   /* pasar de visible a hidden con el boton */
+            visibility: hidden;
+            font-size: 24px;
+            border: 1px;
+            border-block-color: black;
+              border: black 2px solid;
+             z-index:20;
+}
+
+.Cuadrado #cpik {
+   position: absolute;
+   vertical-align: top;
+   width: 110px;
+   width: 6%;
+
+}
+.Cuadrado img{
+   position: absolute;
+   vertical-align: top;
+}
+
+
+
+.color{
+   border-radius: 5px;
+}
+
+.parte1 {
+
+width: 30%;
+}
+
+.parte2 {
+
+width: 40%;
+margin: 0.3rem
+}
+
+.parte1, .parte2, #sandwich {
+
+display: inline-block;
+vertical-align: top;
+   border-radius: 5px;
+
+
+}
+
+.corazon{
+      position: absolute;
+      margin-left: 33%;
+
+}
+
+.gotero{
+      position: absolute;
+   margin-right: 2px;
+     margin-left: 35%;
+}
+
+.parteabajo{
+
+     border-radius: 10px;
+     background: #e8e8e9;
+}
+
+.partearriba{
+   margin: 0.3rem;
+   border-radius: 25px;
+
+}
+
+
+
+.bloque {
+ background: #dce0dd;
+   border-radius: 5px;
+font-family:  sans-serif;
+     margin-bottom: 110px;
+           margin-top: 6rem;
+     margin-left : 2rem;
+      margin-right:  2rem;
+}
+
+
+
+
+button {
+
+    background: transparent;
+    border: none !important;
+	cursor:pointer;
+}
+
+
+
+.paneliz{
+display: inline-block;
+ float: left;
+    border-radius: 25px;
+
+}
+
+.panelder{
+display: inline-block;
+vertical-align: top;
+   border-radius: 25px;
+
+}
+
+.slider{
+   width: 90%;
+   vertical-align: top;
+
+}
+
+
+.titulo {
+    padding: 0;
+    margin: 0;
+}
+
+.body{
+ transition: background 2s;
+
+}
+
+.entrada{
+   background: #e8e8e9;
+   border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+      border-radius: 25px;
+
+}
+
+.entrada:hover{
+   transition: 2s ;
+      border-color : grey;
+}
+
+.favoritos{
+       margin-top: 3rem;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Estrellas</title>
+    <script src="particulas.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="estilo.css" media="screen" />
+</head>
+<body style="background-color:#000000;">
+<canvas id="canvas"></canvas>
+<div id="marco">
+    <div class = "texto_marco">Numero particulas </div>
+    <input type="text" id="n_particulas"  value="50">
+    <div class = "texto_marco">Numero maximo lineas </div>
+    <input type="text" id="n_lineas"  value="140">
+    <div class = "texto_marco">Distancia maxima de linea </div>
+    <input type="text" id="distancia_linia"  value="220">
+    <div class = "texto_marco">Velocidad maxima eje X </div>
+    <input type="text" id="maxvel_x"  value="0.5">
+    <div class = "texto_marco">Velocidad maxima eje Y </div>
+    <input type="text" id="maxvel_y"  value="0.5">
+    <button onclick="Boton()">Calcular</button>
+
+
+</div>
+<div id="firma">Antoni Andreu 2021</div>
+
+
+</body>
+<script>
+    function Boton(){
+
+
+     maxvelocidadx= document.getElementById('maxvel_x').value;
+     maxvelocidady= document.getElementById('maxvel_y').value;
+     max_particulas =document.getElementById('n_particulas').value;
+     distancia_optima =document.getElementById('distancia_linia').value;
+     maxlinias = document.getElementById('n_lineas').value;
+     array_particulas=[]
+     creaparticulas()
+    }
+</script>
+
+</html>

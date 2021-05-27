@@ -1,0 +1,329 @@
+:root {
+  --colorcabecera: RGB(0,76,76);
+   --colorfondo:RGB(205,213,213);
+    --colorenfasis: RGB(153,178,178);
+    --colorpie: RGB(0,76,76);
+  --fondomasclaro: RGB(238,251,251);
+}
+
+body{
+font-family: 'Montserrat', sans-serif;
+      width: 100%;
+}
+
+#contenido{
+  display:inline-flex;
+  align-content: center;
+   
+}
+
+.pez img{
+  width: 96px;
+  position:absolute; 
+
+
+    transition: 1s;
+}
+
+
+#cabecera{
+  background-color: var(--colorcabecera);
+  display: inline-flex;
+  height: 80px;
+  width: 100%;
+  font-size: larger;
+ //
+
+}
+
+#cabecera img{
+  display: inline;
+  height: 40%;
+  margin: 22px;
+  //
+
+}
+
+
+
+#cabecera h2{
+  color : white;
+}
+
+
+
+.imagen_proyecto img{
+  border-radius: 10%;
+ width: 200px;
+  height: 150px;
+}
+
+.titulo_proyecto{
+  font-size: large;
+  font-weight: bold;
+}
+
+#coniz{
+  background-color: var(--colorenfasis); 
+  width: 10%;
+  height: 800px;
+}
+#conde{
+  background-color:var(--colorfondo); 
+  width: 100%;
+  margin-bottom: -12px;
+}
+
+#arribaderecha{
+  width: 70%;
+ margin-right:  30px;
+  margin-top:32px;
+  font-size: larger;
+ 
+}
+
+
+
+#arribaizquierda img{
+  margin-top: 35px;
+  margin-left: 150px;
+  width: 150px;
+  height:150px;
+  border-radius: 50%;
+  border-style: solid;
+}
+
+#arribaizquierda{
+    text-align:center;
+
+    width: 30%;
+  
+}
+
+#arribaderecha h3 {
+color :black;
+background-color: var(--fondomasclaro);
+  border-radius: 10px;
+
+  padding: 23px;
+}
+
+
+#condear{
+   display:inline-flex;
+  width: 100%;
+ background: linear-gradient(to bottom,  var(--fondomasclaro) , var(--colorfondo));
+}
+#condeab{
+  text-align:center;
+    background-color:var(--colorfondo);
+  height: 80%;
+  
+}
+
+#frame_pie{
+  
+  width: 100.5%;
+    margin-left: -0.6%;
+  
+}
+
+#frame_cabecera{
+  width: 100.5%;
+  margin-top: -23px;
+  margin-bottom: -61px;
+    margin-left: -0.6%;
+  
+}
+
+
+.caja_proyecto{
+   
+  margin:12px;
+  width: 20%;
+  text-align: center;
+  align-content: center;
+  display:inline-block;
+  transition: 1s;
+  filter:contrast(75%);
+    border-radius: 10%;
+  padding: 13px;
+   z-index: 4;
+}
+.caja_proyecto:hover {
+  background-color: RGB(227,232,232);
+  filter:contrast(100%);
+   
+}
+
+#pie img{
+ width: 20px;
+ vertical-align: middle;
+}
+
+#pie{
+  background-color:var(--colorpie); 
+  height: 80px;
+  display:inline-flex;
+  width: 100%;
+}
+
+#pieiz{
+   text-align: left;
+  width: 50%;
+  margin: 12px;
+  margin-left: 12%;
+  font-weight: bold;
+  color : white;
+}
+
+
+#piede{
+  width: 70%;
+   text-align: right;
+  margin: 25px;
+  margin-right: 12%;
+
+
+}
+
+#piede img{
+margin : 6px
+}
+#pieiz img{
+margin : 6px
+}
+
+#pieabajo{
+  text-align: center;
+  background-color:var(--colorpie); 
+  font-size: small;
+  color : white;
+}
+
+@media only screen and (max-width: 1000px) {
+  #cabecera{
+  background-color: var(--colorcabecera);
+  display: inline-flex;
+  height: 60px;
+  width: 100%;
+  font-size: medium;
+ //
+
+}
+
+  #condear{
+  width: 100%;
+ background: linear-gradient(to bottom,  var(--fondomasclaro) , var(--colorfondo));
+  }
+ 
+  #arribaizquierda img{
+  margin-top: 15px;
+  margin-left:center;
+  width: 150px;
+  height:150px;
+  border-radius: 50%;
+  border-style: solid;
+}
+  
+#arribaizquierda{
+  
+    text-align:center;
+
+    width: 100%;
+  
+}  
+
+  #arribaderecha h3 {
+color :black;
+background-color: var(--fondomasclaro);
+  border-radius: 10px;
+  padding: 8px;
+  margin-top: 150px;
+  margin-left: -140%; 
+    width: 180%;
+    text-align:center;
+}
+
+  #condeab{
+  text-align:center;
+    background-color:var(--colorfondo);;
+    width: 100%;
+}
+
+
+.caja_proyecto{
+   
+  margin:12px;
+  width: 90%;
+  text-align: center;
+  transition: 1s;
+  filter:contrast(75%);
+    border-radius: 10%;
+  padding: 6px;
+   z-index: 4;
+}
+  
+  #conde{
+  background-color:var(--colorfondo); 
+  width: 100%;
+  height: 1850px
+
+}
+#pie img{
+  
+ width: 30px;
+}
+
+#pie{
+  background-color:var(--colorpie); 
+  height: 80px;
+  display: inline-flex;
+  width: 100%;
+}
+
+#pieiz{
+   text-align: left;
+  width: 40%;
+  margin: 12px;
+  margin-left: 12%;
+  font-weight: bold;
+  color : white;
+  font-size :xx-small
+ 
+}
+
+
+#piede{
+  width: 30%;
+   text-align: right;
+  margin: 25px;
+  margin-right: 12%;
+
+
+}
+
+#piede img{
+margin : 2px
+}
+#pieiz img{
+margin : 0px
+}
+
+#pieabajo{
+  text-align: center;
+  background-color:var(--colorpie); 
+  font-size: xx-small;
+  color : white;
+}
+  
+
+  
+}
+
+
+
+
+
+
+

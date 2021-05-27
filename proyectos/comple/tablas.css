@@ -1,0 +1,43 @@
+
+
+body {
+  font-family: Helvetica;
+   background-size: 5% auto;
+   image-rendering: auto;
+   font-smooth: never;
+   webkit-font-smoothing : none;
+}
+table {
+ width: 100%;
+    background: hsla(0, 0%, 100%, 0.5);
+}
+th, td {
+   width: 50%;
+   vertical-align: top;
+}
+
+button {
+
+    background: transparent;
+    border: none !important;
+	cursor:pointer; 
+}
+
+#resultados{
+	background-color: white;
+	font-weight:bold;
+	text-align:center
+}
+
+.chekers {
+ width: 33%;
+}
+
+.titulos{
+	font-weight:bold;
+}
+
+.textoStandar{
+	margin-bottom: 2px;
+	font-weight:bold;
+}
