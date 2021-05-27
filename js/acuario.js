@@ -2,7 +2,7 @@ var peces =0;
 var iniciado = false;
 
 function creaPez(){
-    document.body.innerHTML +=' <div class ="pez"> <img  id=pez'+peces+' src="./images/acuario/pez'+parseInt(creaRandom(1,5))+'.png" alt="" /> </img></div>'
+    document.body.innerHTML +=' <div class ="pez"> <img  id=pez'+peces+' src="./images/acuario/pez'+parseInt(creaRandom(1,10))+'.png" alt="" /> </img></div>'
     var pez =  document.getElementById('pez'+peces+'');
     pez.style.width = ""+creaRandom(32,320)+"px";
     pez.style.transition= ""+creaRandom(4,10)+"s"; ;
@@ -21,7 +21,8 @@ function creaRandom(min, max) {
 
 function inicia(){
     var root = document.documentElement;
-    root.style.setProperty("--fondo_pagina", "#0d6dfd");
+    colorfondo="#9aa3f9"
+    root.style.setProperty("--fondo_pagina", "#9aa3f9");
 for (var i = 0; i < 10; i++) {
     creaPez();
     }

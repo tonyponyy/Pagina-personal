@@ -9,8 +9,11 @@ var maxlinias = 140;
 var linias = 0;
 var margen = 120;
 var tamanyo_maximo = 5;
-
+var myElement = document.getElementById('quiensoy');
 var array_particulas=[];
+
+var colorfondo ='#ebebeb';
+var colorsecundario='#c9c9c9';
 
 function creaparticulas(){
 
@@ -45,7 +48,7 @@ canvas.style.width=canvas_width*zoom+'px';
 canvas.style.height =canvas_height*zoom+'px';
 creaparticulas();
 
-ctx.fillStyle = '#000000';
+ctx.fillStyle = 'black';
 ctx.fillRect(0, 0, canvas_width , canvas_height)
 
 bucle()
@@ -58,7 +61,7 @@ bucle()
 
 function bucle(){
 //ctx.clearRect(0, 0, canvas_width , canvas_height)
-ctx.fillStyle = '#63c6ae';
+ctx.fillStyle = colorfondo;
 ctx.fillRect(0, 0, canvas_width , canvas_height)
 
 
@@ -74,7 +77,7 @@ if (array_particulas[i].x< -margen){array_particulas[i].x = canvas_width}
 if (array_particulas[i].y> canvas_height+margen){array_particulas[i].y = 0}
 if (array_particulas[i].y< -margen){array_particulas[i].y = canvas_height}
 
-ctx.fillStyle = '#ffffff';
+ctx.fillStyle = colorsecundario;
 
 size = tamanyo_maximo*(( (array_particulas[i].vel_x/maxvelocidadx) + (array_particulas[i].vel_y/maxvelocidady))/2)
 ctx.fillRect(array_particulas[i].x,array_particulas[i].y,size,size);
@@ -99,7 +102,7 @@ ctx.fillRect(array_particulas[i].x,array_particulas[i].y,size,size);
              ctx.beginPath();
             ctx.moveTo(array_particulas[i].x+size/2,array_particulas[i].y+size/2);
             ctx.lineTo(array_particulas[e].x+size/2,array_particulas[e].y+size/2);
-            ctx.strokeStyle = '#ffffff';
+            ctx.strokeStyle = colorsecundario;
             ctx.stroke();
             linias++;
 
@@ -115,7 +118,8 @@ ctx.fillRect(array_particulas[i].x,array_particulas[i].y,size,size);
 
 }
 linias =0;
-//muevecuadrados();
+
+
 window.requestAnimationFrame(bucle)
 }
 

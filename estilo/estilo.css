@@ -1,9 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&display=swap');
 :root {
-  --quiensoy: #7daa88;
+  --quiensoy: rgba(125,170,136);
   --portafolio: #b5c9cf;
   --contacta:#cfb5c9;
   --fondo_pagina:#ebebeb;
+}
+
+canvas{
+left: 0;
+top:0;
+position: fixed;
 }
 
 #primerelemento_nav{
@@ -12,7 +18,8 @@
 
 body{
   overflow-x: hidden;
-  background-color: #ebebeb;
+  background-color: var(--fondo_pagina);
+  transition-duration: 3s;
 }
 .card{
   margin: 12px;
@@ -47,12 +54,7 @@ body{
 }
 
 
-canvas{
-  position: absolute;
-  top:0;
-  right:  0;
-  z-index: -1;
-}
+
 
 #nombre{
   color:white;
@@ -71,6 +73,13 @@ nav{
 
 .nav a{
   color: black;
+}
+
+#i_correo{
+  width: 30%
+}
+#i_nombre{
+  width: 30%
 }
 
 .nav a:hover{
@@ -249,23 +258,32 @@ margin-right:9%;
 }
 
 #formulario{
-  margin: 35px;
+  margin: 75px;
   padding: 35px;
   background-color: rgba(255,255,255,0.1);
   border-radius: 12px;
-
+  width: 60%;
 }
 
 #formulario button{
   margin-top: 12px;
-  width: 30%;
-  height: 60px;
-  margin-left: 35%
-  
+  width: 20%;
+  height: 40px;
+  margin-left: 0%;
 }
 
 #i_nombre{
   margin-bottom: 22px;
+  width: 60%;
+}
+
+#i_correo{
+  margin-bottom: 22px;
+  width: 60%;
+}
+
+#i_asunto{
+  width: 90%
 }
 
 
@@ -275,6 +293,21 @@ margin-right:9%;
 #texto_form b{
   color:white;
 }
+
+
+@media (max-width: 1000px) {
+  #formulario{
+    width: 90%;
+  margin-left:5%;
+  }
+  #formulario button{
+    width: 100px;
+  }
+  
+  
+}
+
+
 
 
 .pez img{
