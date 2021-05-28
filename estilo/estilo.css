@@ -107,6 +107,7 @@ nav{
   
 }
 
+
 .btn-primary{
   margin-left: 10px;
 
@@ -309,7 +310,13 @@ margin-right:9%;
   margin-left:5%;
   }
   #formulario button{
-    width: 100px;
+    width: 100px;  
+  }
+  .card {
+    font-size: large;
+  }
+ .card-title{
+    font-size:x-large
   }
   
   
