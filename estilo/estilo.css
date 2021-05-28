@@ -6,6 +6,14 @@
   --fondo_pagina:#ebebeb;
 }
 
+html, body {
+  overflow-x: hidden;
+}
+body {
+  position: relative
+}
+
+
 canvas{
 left: 0;
 top:0;
